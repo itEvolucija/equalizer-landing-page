@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+/* COLORS */
+
+:root {
+  --bg: #f2f2f2;
+  --black: #191826;
+  --orange: #fa7453;
+  --white: #fcfaf9;
+}
+
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  background-image: url("../assets/bg-main-desktop.png");
+  color: var(--black);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  margin: auto;
+  width: 1440px;
+}
+
+/* HEADER */
+
+header {
+  background-image: url("../assets/bg-pattern-1.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-x: right;
+  background-position-y: -30px;
+  height: 600px;
+}
+header img {
+  position: absolute;
+  top: 50px;
+}
+header .text {
+  position: absolute;
+  top: 180px;
+  width: 900px;
+}
+h1 {
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+header p {
+  width: 800px;
+}
+
+/* MAIN */
+
+main {
+  background-color: var(--black);
+  background-image: url(../assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  height: 600px;
+  position: relative;
+  top: 300px;
+}
+main .app img {
+  left: 200px;
+  position: absolute;
+  top: -250px;
+  width: 300px;
+}
+.card {
+  background-color: var(--orange);
+  border-radius: 1rem;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  padding: 2rem;
+  position: absolute;
+  right: 200px;
+  top: 250px;
+  width: 450px;
+}
+.card h3 {
+  font-size: 36px;
+  margin-bottom: 3rem;
+}
+.card p {
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.price p {
+  font-size: 46px;
+  font-weight: 700;
+}
+.price span {
+  font-size: 18px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+button {
+  align-items: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+}
+.card button p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+.btn-1 {
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.btn-2 {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--black);
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  position: absolute;
+  top: 1850px;
+  width: 1440px;
+}
+footer img {
+   height: 33px;
+}
+footer p{
+    width: 400px;
+}
+.icon img{
+    height: 20px;
+    margin-left: 1rem;
+}
