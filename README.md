@@ -1,2 +1,2 @@
-equalizer-landing-page
+ # equalizer-landing-page
 
